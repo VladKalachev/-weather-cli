@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 import { getArgs } from './helpers/args.js';
+import { printHelp, printSuccess, printError, printWeather } from './services/log.service.js';
 
 const saveToken = async (token) => {
-  
+
 }
 
 const saveCity = async (city) => {
