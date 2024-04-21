@@ -2,6 +2,7 @@
 import { getArgs } from './helpers/args.js';
 import { printHelp, printSuccess, printError, printWeather } from './services/log.service.js';
 import { saveKeyValue, TOKEN_DICTIONARY, getKeyValue } from './services/storage.service.js';
+import { getWeather } from './services/api.service.js';
 
 const saveToken = async (token) => {
   if (!token.length) {
